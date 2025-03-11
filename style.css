@@ -18,18 +18,18 @@ body{
     font-style: normal;
     text-align:justify;
     background-color: rgba(255, 255, 0, 0.5) ;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .professores{
-    color:rgba(42,46,131,255);
-    font-size: 200%;
+    color: black;
+    font-size: 100%;
     font-family: "Emblema One", system-ui;
     font-optical-sizing: auto;
-    font-weight:900;
+    font-weight:400;
     font-style: normal;
     text-align:center;
-    text-shadow: 2px 2px 0 rgb(0,0,0);
-    padding: 20px;
 }
 
 .titulo{
@@ -72,4 +72,56 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #ff0000;
+}
+
+.imgkalen {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.kalen{
+    text-align: center;
+    display: inline-block;
+    padding: 50px;
+}
+
+.imgmabel {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.mabel{
+    text-align: center;
+    display: inline-block;
+    padding: 50px;
+}
+
+.imglucas {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.lucas{
+    text-align: center;
+    display: inline-block;
+    padding: 50px;
+}
+
+.imgjessica {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.jessica{
+    text-align: center;
+    display: inline-block;
+    padding: 50px;
 }
