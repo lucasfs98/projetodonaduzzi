@@ -17,27 +17,59 @@ body{
     font-weight:900;
     font-style: normal;
     text-align:justify;
-    text-shadow: 3px 3px 0 white;
+    background-color: rgba(255, 255, 0, 0.5) ;
 }
 
 .professores{
-    color:black;
-    font-size: 150%;
-    font-family: "Emblema One", system-ui;
-    font-optical-sizing: auto;
-    font-weight:900;
-    font-style: normal;
-    text-align:center;
-    text-shadow: 3px 3px 0 white;
-}
-
-h1{
-    color:rgb(255, 0, 0);
+    color:rgba(42,46,131,255);
     font-size: 200%;
     font-family: "Emblema One", system-ui;
     font-optical-sizing: auto;
     font-weight:900;
     font-style: normal;
     text-align:center;
+    text-shadow: 2px 2px 0 rgb(0,0,0);
+    padding: 20px;
+}
+
+.titulo{
+    color:rgba(42,46,131,255);
+    font-size: 400%;
+    font-family: "Emblema One", system-ui;
+    font-optical-sizing: auto;
+    font-weight:900;
+    font-style: normal;
+    text-align:center;
     text-shadow: 3px 3px 0 rgb(0,0,0);
+    padding: 20px;
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    background-color: rgba(255, 255, 0, 0.5);
+}
+
+nav ul li {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 200%;
+    font-family: "Emblema One", system-ui;
+    font-optical-sizing: auto;
+    font-weight:900;
+    font-style: normal;
+}
+
+nav ul li a:hover {
+    color: #ff0000;
 }
