@@ -1,0 +1,43 @@
+.imgdonaduzzi{
+    text-align: center;
+}
+
+body{
+    background-image:url(1.png);
+    background-color: rgba(255, 255, 255, 0.8);
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+.frase{
+    color:black;
+    font-size: 150%;
+    font-family: "Emblema One", system-ui;
+    font-optical-sizing: auto;
+    font-weight:900;
+    font-style: normal;
+    text-align:justify;
+    text-shadow: 3px 3px 0 white;
+}
+
+.professores{
+    color:black;
+    font-size: 150%;
+    font-family: "Emblema One", system-ui;
+    font-optical-sizing: auto;
+    font-weight:900;
+    font-style: normal;
+    text-align:center;
+    text-shadow: 3px 3px 0 white;
+}
+
+h1{
+    color:rgb(255, 0, 0);
+    font-size: 200%;
+    font-family: "Emblema One", system-ui;
+    font-optical-sizing: auto;
+    font-weight:900;
+    font-style: normal;
+    text-align:center;
+    text-shadow: 3px 3px 0 rgb(0,0,0);
+}
